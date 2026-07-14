@@ -1,7 +1,9 @@
 package com.notificationsystem.dto;
 
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 public class NotificationRequest {
     private Long userId;
     private String title;

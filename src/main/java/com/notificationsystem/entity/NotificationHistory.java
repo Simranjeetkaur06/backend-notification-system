@@ -1,11 +1,11 @@
 package com.notificationsystem.entity;
 
 import jakarta.persistence.*;
-import org.apache.catalina.User;
+import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.util.Date;
-
+@Data
 @Entity
 public class NotificationHistory {
 

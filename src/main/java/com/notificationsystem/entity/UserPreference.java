@@ -1,11 +1,13 @@
 package com.notificationsystem.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class UserPreference {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private boolean emailEnabled;
     private boolean pushEnabled;
