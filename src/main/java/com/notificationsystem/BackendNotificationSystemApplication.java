@@ -1,4 +1,4 @@
-package com.notificationsystem.backendnotificationsystem;
+package com.notificationsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
